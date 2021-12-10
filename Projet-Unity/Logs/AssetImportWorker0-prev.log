@@ -15,11 +15,11 @@ C:/Unity/Projet-Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51630
+52520
 Successfully changed project path to: C:/Unity/Projet-Unity
 C:/Unity/Projet-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 45.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002060 seconds.
+Registered in 0.001343 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 48.00 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.442 seconds
+- Completed reload, in  1.019 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1442ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (651ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (169ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012566 seconds.
+Registered in 0.008181 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.08 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 43.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.458 seconds
+- Completed reload, in  1.167 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1459ms)
-		BeginReloadAssembly (205ms)
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1144ms)
-			LoadAssemblies (142ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (519ms)
+			SetupTypeCache (351ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (329ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (196ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (202ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2198 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.5 MB.
 System memory in use after: 96.6 MB.
 
 Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2700.
-Total: 3.794900 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.082100 ms MarkObjects: 3.348800 ms  DeleteObjects: 0.120800 ms)
+Total: 3.650600 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.100000 ms MarkObjects: 3.245600 ms  DeleteObjects: 0.087600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,184 +131,172 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Macros/GroundCheck.asset
-  artifactKey: Guid(63731b714f0d4cf4096f0a8f90a293b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Macros/GroundCheck.asset using Guid(63731b714f0d4cf4096f0a8f90a293b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8036efa52a71c04a29a3eb6d6117e17') in 0.519371 seconds 
-  Import took 0.522855 seconds .
+  path: Assets/Scenes/HUD.unity
+  artifactKey: Guid(279a8870345208046b22f7aa2b7fe228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HUD.unity using Guid(279a8870345208046b22f7aa2b7fe228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c0c0dfd14576b82df52155d7afdb8') in 0.021007 seconds 
+  Import took 0.024759 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010258 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1351ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1120ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (461ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (357ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2702.
-Total: 3.982700 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.105100 ms MarkObjects: 3.620000 ms  DeleteObjects: 0.025400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 242.658359 seconds.
+  Time since last request: 109.532121 seconds.
+  path: Assets/Scenes/New Flow Macro.asset
+  artifactKey: Guid(9a4200c28d2146049b591a7e00f57e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Flow Macro.asset using Guid(9a4200c28d2146049b591a7e00f57e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e31d60e48495a508c2b3b47ead4ee0e') in 0.101380 seconds 
+  Import took 0.106256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.894761 seconds.
+  path: Assets/Macros/Hud.asset
+  artifactKey: Guid(87593d7ffbd44714e89c581cadd52d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/Hud.asset using Guid(87593d7ffbd44714e89c581cadd52d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef89c038e8dace83f6136757707e5c9') in 0.017635 seconds 
+  Import took 0.024130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.337072 seconds.
+  path: Assets/Macros/HudLoader.asset
+  artifactKey: Guid(87593d7ffbd44714e89c581cadd52d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/HudLoader.asset using Guid(87593d7ffbd44714e89c581cadd52d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b306a80f68f0b9f45923e0a035dae90c') in 0.009523 seconds 
+  Import took 0.013689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.478057 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(80e5ff8fdbb5a084296e97e2731f0bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(80e5ff8fdbb5a084296e97e2731f0bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0386ebbdbef333ad49c2fc0324569e38') in 0.009509 seconds 
+  Import took 0.016300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.715304 seconds.
+  path: Assets/Macros/HudLoader.asset
+  artifactKey: Guid(87593d7ffbd44714e89c581cadd52d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/HudLoader.asset using Guid(87593d7ffbd44714e89c581cadd52d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ddc6747fff7df90750539dd196e69f') in 0.524669 seconds 
+  Import took 0.530120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Macros/Objective.asset
+  artifactKey: Guid(22e23ea4b03b66a4081b692071533167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/Objective.asset using Guid(22e23ea4b03b66a4081b692071533167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6059ae5825164b05e75a1cce92ea9') in 0.201796 seconds 
+  Import took 0.206495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
   path: Assets/Macros/Spikes.asset
   artifactKey: Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Macros/Spikes.asset using Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f8829420d0a65b3acefe1d6dd9c6ac') in 0.245768 seconds 
-  Import took 0.249705 seconds .
+Start importing Assets/Macros/Spikes.asset using Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Could not load connection between 'target' of 'SuperUnit#3f7be...' and 'enter' of 'TriggerCustomEvent#60fa6...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ControlOutput, Bolt.ControlInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqScriptableObject.cs:50)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010107 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1491ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1270ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (527ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.2 MB.
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2704.
-Total: 3.937300 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.148400 ms MarkObjects: 3.453600 ms  DeleteObjects: 0.055200 ms)
+Could not load connection between 'object' of 'SuperUnit#3f7be...' and 'target' of 'TriggerCustomEvent#60fa6...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ValueOutput, Bolt.ValueInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqScriptableObject.cs:50)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+ -> (artifact id: '731f6879922097cf7cd043f4ef8ccb8d') in 0.020139 seconds 
+  Import took 0.024071 seconds .
+
 ========================================================================
 Received Import Request.
-  Time since last request: 116.042232 seconds.
-  path: Assets/Macros/Spikes.asset
-  artifactKey: Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Macros/Spikes.asset using Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166eeece3147d544c3ad8c5599054b30') in 0.605594 seconds 
-  Import took 0.610177 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Macros/OnCollisionWith.asset
+  artifactKey: Guid(4e851a0d795b7ca4b97060c7d1e0e4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/OnCollisionWith.asset using Guid(4e851a0d795b7ca4b97060c7d1e0e4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2b54403c8a513d834468ba75b4ad6b') in 0.009609 seconds 
+  Import took 0.014589 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011356 seconds.
+Registered in 0.011220 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.355 seconds
+- Completed reload, in  1.021 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1355ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1127ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (455ms)
+			SetupTypeCache (338ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.0 MB.
-System memory in use after: 96.2 MB.
+System memory in use before: 96.1 MB.
+System memory in use after: 96.3 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 4.769900 ms (FindLiveObjects: 0.545700 ms CreateObjectMapping: 0.163800 ms MarkObjects: 4.015900 ms  DeleteObjects: 0.043200 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 4.002200 ms (FindLiveObjects: 0.217600 ms CreateObjectMapping: 0.077400 ms MarkObjects: 3.663200 ms  DeleteObjects: 0.043000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -320,12 +308,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 55.243580 seconds.
-  path: Assets/Macros/Spikes.asset
-  artifactKey: Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Macros/Spikes.asset using Guid(92ad2bba6db2f934291ab0aa14f40a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13d580ffbd9faad6363522b38e7f7f7') in 0.617572 seconds 
-  Import took 0.622577 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
