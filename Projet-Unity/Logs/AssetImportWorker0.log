@@ -15,11 +15,11 @@ C:/Unity/Projet-Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50829
+60809
 Successfully changed project path to: C:/Unity/Projet-Unity
 C:/Unity/Projet-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 45.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001413 seconds.
+Registered in 0.001388 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 41.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  0.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (158ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008831 seconds.
+Registered in 0.008544 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 39.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
+- Completed reload, in  1.063 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (312ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (188ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (184ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2198 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.7 MB.
 System memory in use after: 96.9 MB.
 
 Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2704.
-Total: 3.751300 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.093500 ms MarkObjects: 3.328500 ms  DeleteObjects: 0.114200 ms)
+Total: 3.735000 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.095700 ms MarkObjects: 3.312700 ms  DeleteObjects: 0.106900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,72 +131,822 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level3.unity
-  artifactKey: Guid(899e2f9ff7821344489cd9cb15bf1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level3.unity using Guid(899e2f9ff7821344489cd9cb15bf1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175be53d22e096cb414d43497d6da30d') in 0.027103 seconds 
-  Import took 0.031763 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(c41479faaceeea346999af0cd427834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c41479faaceeea346999af0cd427834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077647d07038e8bd9eaa33b23b5676d0') in 0.009921 seconds 
+  Import took 0.013163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.754126 seconds.
+  Time since last request: 16.840608 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a792839d7173737817161d8417bdac5') in 0.026127 seconds 
+  Import took 0.030770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.909936 seconds.
   path: Assets/Scenes/Level4.unity
   artifactKey: Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level4.unity using Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3070f813575f59a82a7a8a8a7184cf61') in 0.010039 seconds 
-  Import took 0.014153 seconds .
+Start importing Assets/Scenes/Level4.unity using Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bc884588aaa5ba074cdd16e963482d') in 0.012901 seconds 
+  Import took 0.017614 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.973776 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(80e5ff8fdbb5a084296e97e2731f0bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(80e5ff8fdbb5a084296e97e2731f0bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53666f38cff2ab861081de3667e02dd') in 0.006967 seconds 
-  Import took 0.011031 seconds .
+  Time since last request: 96.415155 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1dadd2f95638de0000f916e4c54b76') in 0.003884 seconds 
+  Import took 0.008544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.332697 seconds.
+  path: Assets/Macros/Bee.asset
+  artifactKey: Guid(8b39aeeba5278ab4e8ed9d89ac09a080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/Bee.asset using Guid(8b39aeeba5278ab4e8ed9d89ac09a080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68c26fdca5bf088741197eefbd7b5a1') in 0.721536 seconds 
+  Import took 0.725449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.383326 seconds.
+  path: Assets/Prefabs/Door.prefab
+  artifactKey: Guid(64088e387d85524408515dc5ab106f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.prefab using Guid(64088e387d85524408515dc5ab106f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93545470c2fb956e27abc4e962d3d07') in 0.309665 seconds 
+  Import took 0.313957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323804 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(ffdbf84fafc464c4eac31173f8bd9249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(ffdbf84fafc464c4eac31173f8bd9249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Could not load connection between 'target' of 'SuperUnit#cc1f6...' and 'enter' of 'TriggerCustomEvent#ba5b9...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ControlOutput, Bolt.ControlInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:637)
+Ludiq.FullSerializer.fsIEnumerableConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsIEnumerableConverter.cs:100)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:637)
+Ludiq.FullSerializer.fsIEnumerableConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsIEnumerableConverter.cs:100)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:Dese
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+Could not load connection between 'object' of 'SuperUnit#cc1f6...' and 'target' of 'TriggerCustomEvent#ba5b9...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ValueOutput, Bolt.ValueInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:637)
+Ludiq.FullSerializer.fsIEnumerableConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsIEnumerableConverter.cs:100)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:637)
+Ludiq.FullSerializer.fsIEnumerableConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsIEnumerableConverter.cs:100)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:Deserial
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+ -> (artifact id: '285501408573a885996d73aa6ca41230') in 0.422694 seconds 
+  Import took 0.426798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.752612 seconds.
+  path: Assets/Prefabs/Objective.prefab
+  artifactKey: Guid(d59fc136b0b51ab41b3a7dfbf202fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objective.prefab using Guid(d59fc136b0b51ab41b3a7dfbf202fdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Could not load connection between 'target' of 'SuperUnit#bc393...' and 'assign' of 'SetVariable#7f89c...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ControlOutput, Bolt.ControlInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqScriptableObject.cs:50)
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+ -> (artifact id: 'cac9416816094f2e2abe4df83ac4afca') in 0.172774 seconds 
+  Import took 0.177529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.467450 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(9fab65f3a396eaf4fb2c796172ea03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(9fab65f3a396eaf4fb2c796172ea03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Could not load connection between 'grounded' of 'SuperUnit#38e42...' and '%value' of 'InvokeMember#a6de9...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ValueOutput, Bolt.ValueInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqScriptableObject.cs:50)
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+Could not load connection between 'grounded' of 'SuperUnit#9dea3...' and 'condition' of 'Branch#ca247...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ValueOutput, Bolt.ValueInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqScriptableObject.cs:50)
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+Could not load connection between 'target' of 'SuperUnit#bd3af...' and 'enter' of 'TriggerCustomEvent#38d6c...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ControlOutput, Bolt.ControlInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqBehaviour:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqBehaviour.cs:48)
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+Could not load connection between 'object' of 'SuperUnit#bd3af...' and 'target' of 'TriggerCustomEvent#38d6c...'.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Bolt.UnitConnection`2<Bolt.ValueOutput, Bolt.ValueInput>:HandleDependencies () (at Bolt.Flow.Runtime/Connections/UnitConnection.cs:146)
+Ludiq.Graph:OnAfterDependenciesDeserialized () (at Ludiq.Graphs.Runtime/Graph.cs:117)
+Ludiq.Serialization:CheckIfDependenciesMet (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:296)
+Ludiq.Serialization:AwaitDependencies (Ludiq.ISerializationDepender) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:236)
+Ludiq.Graph:OnAfterDeserialize () (at Ludiq.Graphs.Runtime/Graph.cs:98)
+Ludiq.FullSerializer.fsSerializationCallbackReceiverProcessor:OnAfterDeserialize (System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsISerializationCallbacks.cs:127)
+Ludiq.FullSerializer.fsSerializer:Invoke_OnAfterDeserialize (System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>,System.Type,object) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:1190)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:675)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.FullSerializer.fsReflectedConverter:TryDeserialize (Ludiq.FullSerializer.fsData,object&,System.Type) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/Converters/fsReflectedConverter.cs:97)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_5_Converter (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:899)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_4_Cycles (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:889)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_3_Inheritance (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:864)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_2_Version (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:768)
+Ludiq.FullSerializer.fsSerializer:InternalDeserialize_1_CycleReference (System.Type,Ludiq.FullSerializer.fsData,System.Type,object&,System.Collections.Generic.List`1<Ludiq.FullSerializer.fsObjectProcessor>&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:713)
+Ludiq.FullSerializer.fsSerializer:TryDeserialize (Ludiq.FullSerializer.fsData,System.Type,System.Type,object&) (at Ludiq.Core.Runtime/Dependencies/FullSerializer/fsSerializer.cs:666)
+Ludiq.Serialization:DeserializeJson (Ludiq.FullSerializer.fsSerializer,string,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:171)
+Ludiq.Serialization:DeserializeInto (Ludiq.SerializationData,object&,bool) (at Ludiq.Core.Runtime/Serialization/Serialization.cs:113)
+Ludiq.LudiqBehaviour:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () (at Ludiq.Core.Runtime/Unity/LudiqBehaviour.cs:48)
+
+(Filename: Bolt.Flow.Runtime/Connections/UnitConnection.cs Line: 146)
+
+ -> (artifact id: '5cc43402b84a40a146cf08aa5d416aca') in 0.259026 seconds 
+  Import took 0.263602 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011345 seconds.
+Registered in 0.011489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.438 seconds
+- Completed reload, in  1.349 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1440ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1208ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1113ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (500ms)
+			SetupTypeCache (455ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 4.304400 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.126800 ms MarkObjects: 3.861300 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (445ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (276ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 4.958300 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.191600 ms MarkObjects: 4.435400 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.568273 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af3730648550fb3b4e9bb212b0fef7a') in 0.016001 seconds 
+  Import took 0.022528 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1218ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 3.855000 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.092600 ms MarkObjects: 3.475000 ms  DeleteObjects: 0.071100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1200ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 4.155300 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.107400 ms MarkObjects: 3.717600 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.776063 seconds.
+  path: Assets/Prefabs/Spikes.prefab
+  artifactKey: Guid(d040ac796b6271f4180127a84952d130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spikes.prefab using Guid(d040ac796b6271f4180127a84952d130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235cc8994050fcdef8b7842c21a659ef') in 0.541444 seconds 
+  Import took 0.545101 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1337ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2722.
+Total: 4.916900 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.206000 ms MarkObjects: 4.396900 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (285ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.4 MB.
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 4.128400 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.148000 ms MarkObjects: 3.706400 ms  DeleteObjects: 0.028500 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2724.
+Total: 4.346000 ms (FindLiveObjects: 0.246100 ms CreateObjectMapping: 0.117900 ms MarkObjects: 3.935300 ms  DeleteObjects: 0.045400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.560320 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb29d63960abdb4f0063a847f9a9ac76') in 0.014912 seconds 
+  Import took 0.019289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.098650 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(d0f1403920648594b866544daef165af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(d0f1403920648594b866544daef165af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7020048a6c4dffd338626e6130a64a00') in 0.010133 seconds 
+  Import took 0.014532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.321312 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(899e2f9ff7821344489cd9cb15bf1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(899e2f9ff7821344489cd9cb15bf1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b3e9811d9367df16a098e35914fbe8') in 0.007618 seconds 
+  Import took 0.011486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.822126 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc444ac047940137dcdddd3b9217557') in 0.002445 seconds 
+  Import took 0.006673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.560767 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749e6cd96cd789ba63a81a15c95586c0') in 0.002381 seconds 
+  Import took 0.006446 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2726.
+Total: 5.567300 ms (FindLiveObjects: 0.416500 ms CreateObjectMapping: 0.199600 ms MarkObjects: 4.923400 ms  DeleteObjects: 0.026200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -211,48 +961,528 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011285 seconds.
+Registered in 0.011554 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
+- Completed reload, in  1.406 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1403ms)
+	ReloadAssembly (1406ms)
 		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1180ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1185ms)
 			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (476ms)
+			SetupTypeCache (487ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (381ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (375ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.4 MB.
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2708.
-Total: 5.137000 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.145200 ms MarkObjects: 4.544800 ms  DeleteObjects: 0.084500 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2728.
+Total: 3.530200 ms (FindLiveObjects: 0.237200 ms CreateObjectMapping: 0.094700 ms MarkObjects: 3.123200 ms  DeleteObjects: 0.073800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1446ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1214ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 4.695600 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.092400 ms MarkObjects: 4.287400 ms  DeleteObjects: 0.082500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1471ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1243ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2732.
+Total: 5.098800 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.245500 ms MarkObjects: 4.376200 ms  DeleteObjects: 0.027100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195.249176 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bd2050bd3defce21000543c9d8457f') in 0.018378 seconds 
+  Import took 0.023107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.512359 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(3a9fc8842018d014cb7ce22ded4c574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee8009e982bb9c39e2cd27f5ef63de0') in 0.002473 seconds 
+  Import took 0.006709 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1192ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2734.
+Total: 4.178400 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.106200 ms MarkObjects: 3.680500 ms  DeleteObjects: 0.046500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2736.
+Total: 4.637800 ms (FindLiveObjects: 0.322700 ms CreateObjectMapping: 0.099500 ms MarkObjects: 4.169500 ms  DeleteObjects: 0.044700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200.954248 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(77c5cbf1d858c5145a76c0c6de9aa483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fa77952cb0768078e8252491be89c7') in 0.015860 seconds 
+  Import took 0.020320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 363.330948 seconds.
+  path: Assets/Macros/Platforme.asset
+  artifactKey: Guid(1da3a299add60be4f86df22448c79da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Macros/Platforme.asset using Guid(1da3a299add60be4f86df22448c79da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaae3d11220e4eb9fdaf0904c622c92') in 0.233442 seconds 
+  Import took 0.239480 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010637 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2738.
+Total: 4.180100 ms (FindLiveObjects: 0.245500 ms CreateObjectMapping: 0.117200 ms MarkObjects: 3.770700 ms  DeleteObjects: 0.045200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1305ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2740.
+Total: 4.458900 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.111100 ms MarkObjects: 4.074000 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 4.711400 ms (FindLiveObjects: 0.410100 ms CreateObjectMapping: 0.132300 ms MarkObjects: 4.138600 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1412ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1216ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (517ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2744.
+Total: 5.567000 ms (FindLiveObjects: 0.360200 ms CreateObjectMapping: 0.130600 ms MarkObjects: 5.011700 ms  DeleteObjects: 0.063000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
